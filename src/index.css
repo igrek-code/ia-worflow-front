@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background: #f5f5f5;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+.board-columns {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  overflow-x: auto;
+  padding-bottom: 12px;
+  min-height: 400px;
+}
+
+.board-column {
+  width: 280px;
+  min-width: 280px;
+  background: #f0f2f5;
+  border-radius: 8px;
+}
+
+.kanban-card {
+  cursor: pointer;
+  margin-bottom: 12px;
+}
